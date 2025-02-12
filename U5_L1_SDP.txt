@@ -1,0 +1,8 @@
+1 - Why should the SinglyNode class nested within the SinglyLinkedList class?
+ Because singly linked lists are made up of nodes, it wouldn't make sense for the node to be out of the class.
+2 - Why does the SinglyLinkedList not support a tail_remove method? Consider usage of resources (processing power and/or memory requirements) in your response.
+Deleting any node makes you have to traverse the list from the head of list and makes you keep track of the previous node of the current one. Causing a waste of memory
+3 - Consider the SinglyLinkedList and the DynamicArray (aka the Python built-in list). What benefit(s) does the linked list have over the dynamic array? 
+  Consider usage of resources (processing power and/or memory requirements) in your response.
+Theres no need for an inital size of the list, it can grow or shrink. For singly linked lists, they take more memory but it is extremely efficent with none wasted.
+Linked lists are also faster for deleting than dynamic arrays 
